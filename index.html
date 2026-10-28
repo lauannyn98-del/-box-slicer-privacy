@@ -1,123 +1,37 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de Privacidade do jogo Box Slicer Pro para Android, desenvolvido por Studios Cotech.">
-  <meta name="color-scheme" content="dark light">
-  <title>Política de Privacidade | Box Slicer Pro</title>
-  <style>
-    :root { color-scheme: dark; --bg: #101018; --surface: #1b1b29; --text: #f6f4fb; --muted: #c5c1d3; --accent: #c6a5ff; --line: #343347; }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin: 0; font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); }
-    .page { max-width: 820px; padding: 40px 22px 64px; margin: 0 auto; }
-    header { padding: 38px 32px 32px; background: linear-gradient(145deg, #2a2043, var(--surface)); border: 1px solid var(--line); border-radius: 22px; margin-bottom: 28px; }
-    .eyebrow { color: var(--accent); font-size: .84rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 800; margin: 0 0 9px; }
-    h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1.18; margin: 0 0 12px; }
-    .subtitle { color: var(--muted); margin: 0 0 12px; }
-    .updated { color: var(--muted); font-size: .89rem; margin: 0; }
-    main { background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 16px 32px 26px; }
-    section { padding: 14px 0; }
-    section + section { border-top: 1px solid var(--line); }
-    h2 { color: #eee4ff; font-size: 1.22rem; line-height: 1.35; margin: 10px 0 12px; }
-    p { margin: 0 0 13px; }
-    p:last-child { margin-bottom: 0; }
-    ul { padding-left: 22px; margin: 0 0 13px; }
-    li { padding-left: 4px; margin-bottom: 5px; }
-    a { color: #dccaff; text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
-    a:focus-visible { outline: 2px solid #e7d7ff; outline-offset: 3px; }
-    footer { color: var(--muted); text-align: center; font-size: .86rem; padding: 26px 10px 0; }
-    @media (max-width: 580px) { .page { padding: 18px 12px 38px; } header, main { border-radius: 15px; padding-left: 20px; padding-right: 20px; } header { padding-top: 28px; } }
-    @media print { :root { color-scheme: light; --bg: #fff; --surface: #fff; --text: #111; --muted: #333; --accent: #444; --line: #ddd; } header, main { border-radius: 0; } .page { max-width: none; } }
-  </style>
-</head>
-<body>
-  <div class="page">
-    <header>
-      <p class="eyebrow">Box Slicer Pro · Android</p>
-      <h1>Política de Privacidade</h1>
-      <p class="subtitle">Como o Box Slicer Pro, disponibilizado por <strong>Studios Cotech</strong>, utiliza dados para conta, progresso, publicidade e proteção do jogo.</p>
-      <p class="updated">Última atualização: <time datetime="2026-10-27">27 de outubro de 2026</time> · Versão 1.7.1 · Revisão online</p>
-    </header>
-    <main>
-      <section>
-        <h2>1. Sobre o jogo e esta política</h2>
-        <p>O Box Slicer Pro é um jogo para Android que exige conexão com a internet e entrada pela conta Google. O progresso é mantido no Cloud Firestore, vinculado à identidade da conta, e o jogo integra anúncios recompensados. Esta política descreve a revisão online da versão 1.7.1; versões anteriores podiam manter cópias locais e funcionar sem conexão.</p>
-        <p>O responsável pelo aplicativo utiliza o nome público Studios Cotech. Dúvidas e solicitações de privacidade podem ser enviadas para <a href="mailto:leyptermh4999@gmail.com">leyptermh4999@gmail.com</a>.</p>
-      </section>
-      <section>
-        <h2>2. Entrada com Google</h2>
-        <p>Para entrar, o aplicativo usa o serviço de identificação do Google e o Firebase Authentication. Esses serviços disponibilizam ao jogo um identificador de usuário, o e-mail, o nome e, quando disponível, a foto do perfil. A foto é usada no painel da conta e pode ser mantida temporariamente na memória do aplicativo.</p>
-        <p>O jogo não recebe a senha da conta Google e não solicita acesso ao Gmail, aos contatos ou aos arquivos pessoais do jogador. A autenticação utiliza credenciais e tokens administrados pelos serviços Google/Firebase. Ao sair da conta, o jogo encerra a sessão do aplicativo; isso não exclui a conta Google.</p>
-      </section>
-      <section>
-        <h2>3. Progresso e funcionamento</h2>
-        <p>São mantidos dados necessários ao jogo, como moedas e estrelas virtuais, recordes, skins, inventário, giros, histórico de recompensas, limites diários de anúncios, datas de resgate, idioma e volumes de áudio. O identificador da conta vincula esse progresso ao jogador no Cloud Firestore.</p>
-        <p>Nesta revisão, o aplicativo não mantém arquivos persistentes de progresso, cópias de recuperação ou uma fila de partidas offline no aparelho. Durante a sessão, o progresso em uso e pedidos de salvamento ainda não confirmados ficam temporariamente na memória RAM. Para liberar a entrada, o aplicativo precisa receber uma resposta autenticada da nuvem. A ausência de conexão bloqueia o jogo e apresenta a opção de tentar novamente.</p>
-        <p>As alterações são enviadas em checkpoints de aproximadamente 30 segundos quando há mudanças, em operações importantes do jogo e nas tentativas ao colocar o app em segundo plano ou sair da conta. Operações importantes aguardam confirmação; conexões lentas, indisponibilidade do serviço ou conflitos podem manter o jogo bloqueado até uma nova verificação. Fechar à força, perder o processo ou desligar o aparelho antes da confirmação pode perder alterações que existiam apenas na memória. O jogo não promete confirmação instantânea ou ausência absoluta de perda em falhas de rede ou do sistema.</p>
-        <p>A revisão online preserva a geração atual do progresso na nuvem e não estabelece um novo reset geral. Arquivos de progresso de versões anteriores são removidos do aparelho na migração. Um checkpoint local autenticado da conta já conectada pode ser aproveitado uma única vez, em memória, quando a cópia remota ainda coincide com sua referência; conflitos preservam a autoridade da cópia remota.</p>
-        <p>Moedas, estrelas e itens virtuais não representam dinheiro real. Esta revisão não inclui compras com dinheiro real dentro do aplicativo.</p>
-      </section>
-      <section>
-        <h2>4. Anúncios recompensados</h2>
-        <p>O jogo integra Google AdMob / Google Mobile Ads SDK para apresentar vídeos recompensados, por exemplo, em troca de um giro na roleta. A recompensa depende da conclusão reconhecida pelo anúncio e dos limites do jogo. O uso dessa integração envolve tratamento de dados pelos serviços de publicidade do Google.</p>
-        <p>O SDK de publicidade pode tratar endereço IP, localização aproximada inferida do IP, interações com o aplicativo e os anúncios, visualizações de vídeo, informações de diagnóstico e desempenho, identificadores do dispositivo e, quando disponível e permitido, o identificador de publicidade do Android. O jogo não solicita permissão para localização precisa por GPS.</p>
-        <p>Esses dados são utilizados para exibir e medir anúncios, diagnosticar falhas e prevenir fraude. Personalização e uso de identificadores dependem das configurações, da região, das escolhas do usuário e das regras dos serviços envolvidos. Os APKs distribuídos para testes podem apresentar anúncios de demonstração; isso não representa receita publicitária real.</p>
-        <p>Nas versões com anúncios reais, quando exigido e configurado para a região, a plataforma de consentimento do Google apresenta as opções aplicáveis antes das solicitações de anúncio. Quando disponíveis, elas podem ser revistas em <strong>Configurações → Privacidade → Preferências de anúncios</strong>. O Android também permite redefinir ou excluir o identificador de publicidade.</p>
-      </section>
-      <section>
-        <h2>5. Segurança e prevenção de abuso</h2>
-        <p>O aplicativo verifica a assinatura e os arquivos do seu pacote e filtra toques sobrepostos por outras janelas. O motor usa o progresso na memória, e os salvamentos remotos utilizam autenticação, controle de versão e condições para evitar sobrescrever uma alteração concorrente. Os horários diários usam uma referência recebida do servidor durante a sessão. O tráfego é protegido em trânsito; isso não representa criptografia de ponta a ponta de todo o progresso. As proteções reduzem riscos, mas não tornam o aparelho, o aplicativo ou a economia local invulneráveis.</p>
-        <p>A versão 1.7.1 integra Firebase App Check com Play Integrity para verificar a origem das solicitações. Esses serviços processam tokens e sinais técnicos sobre a autenticidade do aplicativo, sua instalação e a integridade do ambiente. O cadastro de produção é configurado para uma instalação reconhecida e licenciada pela Google Play. O aplicativo interrompe o acesso quando não consegue obter a verificação necessária ou confirmar uma resposta da nuvem; a exigência dos tokens pelas APIs também depende da configuração dos serviços pelo responsável pelo jogo. Nesta revisão, falhas de verificação não provocam banimento automático nem exclusão automática da conta ou do progresso.</p>
-        <p>O jogo não solicita uma lista geral dos aplicativos instalados, não lê arquivos pessoais de outros aplicativos e não grava senhas, tokens de integridade ou o conteúdo do progresso em registros próprios de telemetria de segurança. Falha de conexão ou ausência de um resultado de verificação não é, por si só, prova de trapaça.</p>
-      </section>
-      <section>
-        <h2>6. Finalidades e serviços utilizados</h2>
-        <p>Os dados de conta e progresso são tratados para fornecer a autenticação e o salvamento solicitados pelo jogador; informações de segurança são utilizadas para proteger o serviço e prevenir abuso; dados enviados ao suporte servem ao atendimento. Consentimento é solicitado para as finalidades que dele dependam, conforme a legislação e as configurações aplicáveis.</p>
-        <ul>
-          <li><strong>Google e Firebase Authentication:</strong> identificação e manutenção da sessão.</li>
-          <li><strong>Cloud Firestore:</strong> armazenamento e recuperação do progresso vinculado à conta.</li>
-          <li><strong>AdMob / Google Mobile Ads e UMP:</strong> publicidade, medição, prevenção de fraude e escolhas de privacidade aplicáveis.</li>
-          <li><strong>App Check / Play Integrity, quando ativados:</strong> verificação da origem e integridade de solicitações.</li>
-          <li><strong>GitHub Pages:</strong> hospedagem desta política; a visita ao site está sujeita também às práticas do GitHub.</li>
-        </ul>
-        <p>Não foi integrado um SDK separado de Firebase Analytics nesta revisão. Isso não significa ausência do tratamento técnico necessário aos serviços de autenticação, nuvem e publicidade descritos acima.</p>
-        <p>Consulte a <a href="https://policies.google.com/privacy?hl=pt-BR" rel="noopener noreferrer">Política de Privacidade do Google</a>, as informações de <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">privacidade do Firebase</a> e a <a href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">Política de Privacidade do GitHub</a>.</p>
-      </section>
-      <section>
-        <h2>7. Compartilhamento e processamento internacional</h2>
-        <p>Informações necessárias às funcionalidades descritas são processadas pelos respectivos provedores. A publicidade envolve o tratamento informado pelo Google e pelas plataformas envolvidas em sua veiculação. Também poderá haver fornecimento de informações quando necessário para cumprir obrigação legal, atender ordem válida ou exercer direitos.</p>
-        <p>Os provedores podem processar dados em outros países. O tratamento e as transferências internacionais estão sujeitos à legislação aplicável e aos termos de proteção de dados dos serviços utilizados. Não vendemos diretamente o cadastro ou o progresso do jogador.</p>
-      </section>
-      <section>
-        <h2>8. Armazenamento, cópias e retenção</h2>
-        <p>O progresso persistente desta revisão fica no Cloud Firestore. O aplicativo, o Android e os SDKs ainda podem manter dados técnicos no aparelho: sessão de autenticação, identificadores de instalação, escolhas de privacidade, um marcador de exclusão de conta pendente e caches operacionais, inclusive de publicidade. Esses dados técnicos não são um save local de moedas, recordes ou inventário. Esta revisão desativa o backup automático e a transferência de dados do aplicativo pelo Android; a recuperação do progresso entre aparelhos exige conexão e a conta correspondente.</p>
-        <p>A conta do jogo e o progresso remoto permanecem enquanto a conta for mantida, salvo exclusão, reinícios de progresso comunicados ou medidas de segurança aplicáveis. Mensagens de suporte são conservadas pelo tempo necessário ao atendimento e às obrigações legais. Provedores podem manter registros operacionais e cópias conforme seus próprios prazos e deveres legais.</p>
-      </section>
-      <section id="exclusao">
-        <h2>9. Exclusão da conta e do progresso</h2>
-        <p>No jogo, abra <strong>Configurações → Privacidade → Excluir conta e progresso</strong>. A exclusão exige confirmação, conexão e uma nova autenticação com a conta Google correspondente. Ao concluir, são excluídos o registro da conta no Firebase Authentication e seu documento de progresso no Firestore, e a sessão em memória é encerrada. Se uma etapa falhar, o aplicativo pode manter um marcador técnico de exclusão pendente para suspender novos salvamentos e permitir nova tentativa.</p>
-        <p>Excluir a conta do jogo não exclui a conta Google. <strong>Sair da conta, desinstalar ou limpar dados do Android não exclui, por si só, os dados na nuvem.</strong> Versões anteriores instaladas em outros aparelhos podem ainda manter cópias locais, e uma sessão aberta pode reter dados temporariamente na memória; o jogo não pode apagar fisicamente um aparelho desconectado. A revisão online exige nova verificação para retomar o jogo.</p>
-        <p>Sem acesso ao aplicativo, solicite a exclusão pelo e-mail <a href="mailto:leyptermh4999@gmail.com?subject=Excluir%20conta%20Box%20Slicer%20Pro">leyptermh4999@gmail.com</a>, com o assunto “Excluir conta Box Slicer Pro” e o e-mail da conta usada no jogo. Poderá ser solicitada confirmação de titularidade, sem pedir sua senha. Informações que precisem ser conservadas por obrigação legal ou segurança serão limitadas a essa finalidade.</p>
-      </section>
-      <section>
-        <h2>10. Seus direitos e escolhas</h2>
-        <p>Conforme a legislação aplicável, você pode solicitar informações sobre o tratamento, acesso, correção e exclusão de dados, informações sobre compartilhamento e revisão das escolhas que dependam de consentimento. Encaminhe os pedidos ao contato abaixo. Pode ser necessário verificar a titularidade para proteger os dados de terceiros.</p>
-        <p>É possível consultar o suporte para esclarecer ou contestar uma restrição de conta. A retirada de uma autorização pode impedir apenas a funcionalidade que dela dependa. As opções de publicidade e os controles da conta Google também podem ser administrados nos serviços responsáveis.</p>
-      </section>
-      <section>
-        <h2>11. Crianças e adolescentes</h2>
-        <p>O jogo não oferece chat nem comunicação direta entre jogadores. O uso de conta Google por crianças deve respeitar os requisitos de idade, supervisão e autorização aplicáveis ao serviço e à região. Pais ou responsáveis podem entrar em contato sobre tratamento indevido de dados de uma criança e solicitar sua exclusão. A classificação indicativa do jogo não substitui essas regras.</p>
-      </section>
-      <section>
-        <h2>12. Alterações e contato</h2>
-        <p>Esta política será atualizada quando houver mudanças relevantes no jogo, nos serviços ou no tratamento de dados. A data no início identifica a revisão vigente.</p>
-        <p><strong>Aplicativo:</strong> Box Slicer Pro<br><strong>Nome público do desenvolvedor:</strong> Studios Cotech<br><strong>Contato de suporte e privacidade:</strong> <a href="mailto:leyptermh4999@gmail.com">leyptermh4999@gmail.com</a></p>
-      </section>
-    </main>
-    <footer>© 2026 Studios Cotech · Box Slicer Pro</footer>
-  </div>
-</body>
-</html>
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacidade e termos | Box Slicer Pro</title><style>body{margin:0;background:#151520;color:#f4f0fa;font:16px/1.7 system-ui,sans-serif}main{max-width:820px;margin:auto;padding:32px 22px}h1,h2{line-height:1.3;color:#d9c3ff}section{margin:24px 0;padding:24px;background:#222230;border-radius:16px}p{white-space:pre-wrap}a{color:#dccaff}</style><main><h1>Box Slicer Pro</h1><p>Studios Cotech · Revisão offline 1.7.1, código 31<br>28 de outubro de 2026</p><section id="privacidade"><h2>Política de privacidade</h2><p>Política de privacidade — Box Slicer Pro
+Studios Cotech · com.boxslicerpro.game
+Revisão offline 1.7.1 (código 31) · 28/10/2026
+Contato: leyptermh4999@gmail.com
 
+Jogo e progresso
+As partidas funcionam offline, sem conta ou login Google. Moedas, estrelas, recorde, itens, resgates, limites de recompensas, idioma e volumes ficam no armazenamento privado do aplicativo, protegidos por criptografia autenticada e chave no Android Keystore. O progresso não é enviado a servidores nesta revisão. Não existe sincronização entre aparelhos nem recuperação na nuvem. O backup e a transferência automática dos dados do jogo pelo Android estão desativados. Limpar os dados ou desinstalar pode apagar definitivamente o progresso e a chave. Não importe arquivos de versões alteradas.
+
+Anúncios opcionais
+O jogo mantém vídeos recompensados da Google AdMob e a plataforma de consentimento Google UMP. Eles requerem internet e são opcionais; sua indisponibilidade não impede partidas ou o uso de moedas já obtidas. A inicialização publicitária solicitada pelo jogo ocorre ao pedir um anúncio. Os SDKs podem manter dados técnicos e caches próprios no aparelho.
+Ao usar publicidade, os serviços Google podem tratar IP e localização aproximada inferida dele, interações e visualizações, diagnóstico e desempenho, identificadores de dispositivo e identificador de publicidade quando disponível e permitido. As finalidades incluem veiculação e medição de anúncios, personalização quando permitida e prevenção de fraude. As escolhas de consentimento aplicáveis aparecem antes das solicitações de anúncios reais e podem ser revistas em Privacidade → Preferências de anúncios, quando disponíveis. O Android oferece controles do identificador de publicidade. Os serviços publicitários podem processar dados fora do Brasil conforme suas políticas e a legislação aplicável. Consulte https://policies.google.com/privacy?hl=pt-BR. A versão de teste usa anúncios de demonstração.
+
+Permissões e proteção
+Internet e estado da rede servem à publicidade opcional. O jogo não pede acesso a GPS, câmera, microfone, contatos ou arquivos pessoais e não inclui Firebase Authentication, Firestore, App Check ou um SDK separado de análise. A verificação local do próprio pacote e, na distribuição Play, da origem de instalação, não envia um relatório de segurança ao desenvolvedor. Nenhuma proteção garante invulnerabilidade.
+
+Suporte e direitos
+Se você enviar e-mail, recebemos o endereço do remetente e o conteúdo que escolher enviar. Usamos isso para atendimento e obrigações legais, pelo tempo necessário. Solicite informações, acesso, correção ou exclusão pelo contato acima; pode ser necessário confirmar titularidade, sem pedir senha. Não vendemos diretamente seu progresso ou mensagens de suporte. Responsáveis podem solicitar atendimento sobre dados de menores; não envie dados sensíveis.
+
+Dados de versões anteriores
+Esta atualização não acessa nem apaga automaticamente contas ou progresso que versões online anteriores tenham enviado ao Firebase. Esses dados não são recuperados no modo offline. Para solicitar sua exclusão, escreva ao suporte com o e-mail usado anteriormente, sem enviar sua senha. Excluir o jogo não apaga esses registros remotos.
+
+Página externa e alterações
+A política e os termos também estão disponíveis dentro do jogo sem internet. Visitar a página pública usa o navegador e o GitHub Pages, que pode processar dados de conexão conforme sua política: https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement. Mudanças relevantes serão refletidas neste texto e nas declarações da loja.</p></section><section id="termos"><h2>Termos de uso</h2><p>Termos de uso — Box Slicer Pro
+Studios Cotech · Revisão offline 1.7.1 (31) · 28/10/2026
+Contato: leyptermh4999@gmail.com
+
+O jogo é fornecido para entretenimento pessoal. As partidas funcionam offline, sem conta Google. Moedas, estrelas, skins e outros itens são virtuais, não têm valor monetário e não podem ser convertidos em dinheiro. Esta versão não contém compras com dinheiro real. Recompensas aleatórias seguem as regras apresentadas pelo jogo.
+
+Anúncios recompensados são opcionais, dependem de internet e disponibilidade e só concedem recompensa após a confirmação prevista pelo anúncio e pelas regras do jogo. Não é necessário assistir a um anúncio para iniciar uma partida. Limites de recompensa continuam aplicáveis.
+
+O progresso é local e protegido no aparelho. Não há sincronização ou recuperação na nuvem. Desinstalar, limpar dados, perder o aparelho ou perder a chave pode causar perda definitiva. Falhas de energia, armazenamento ou sistema podem causar perda de alterações; checkpoints reduzem esse risco, sem garantia absoluta. Progresso remoto de versões online anteriores não é automaticamente importado ou excluído. Não oferecemos importação de saves editados.
+
+A versão distribuída pela Play verifica localmente a origem da instalação e a assinatura oficial; versões adulteradas podem ser recusadas. A edição de teste é separada e permite instalação direta. Essas verificações não controlam outros aplicativos instalados no aparelho. O código compilado e ofuscado não é invulnerável à engenharia reversa.
+
+Respeite os direitos do jogo e de seus autores; não redistribua versões adulteradas como oficiais nem explore falhas para prejudicar terceiros. Atualizações podem corrigir erros e alterar regras, com comunicação quando houver impacto relevante. Direitos obrigatórios do consumidor e demais direitos legais permanecem aplicáveis. Responsáveis devem acompanhar o uso por menores conforme as regras aplicáveis.
+
+Leia a política de privacidade no próprio jogo para conhecer o salvamento, os anúncios opcionais e o suporte. Dúvidas e solicitações pelo contato acima.</p></section></main></html>
